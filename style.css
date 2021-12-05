@@ -12,12 +12,18 @@
     position: relative;
 }
 nav{
+    width: 90%;
+    position: absolute;
+    right: 0;
+    z-index: 10;
     display: flex;
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
 }
 nav img{
+    position: relative;
+    float: left;
     width: 150px;
 }
 .nav-links{
@@ -81,3 +87,4 @@ nav img{
     border: 1px solid #08a0e7fd;
     background: #08a0e7fd;
 }
+
