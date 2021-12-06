@@ -40,7 +40,7 @@ body {
 @keyframes scroll {
     0% { position: sticky; z-index: 1; }
     /* EXPERIMENTAL ANIMATION */
-    70% { scale: 0.8; }
+    /* 70% { scale: 0.8; } */
     99% { position: sticky; }
     100% { position: relative; z-index: 0; }
 }
